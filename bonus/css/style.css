@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; funziona ma l'ho cancellato per motivi estetici */
+}
+
+body{
+  background-image:url('../img/background.jpg');
+}
+
+.container{
+  margin: 5px 100px;
+}
+
+hr{
+  background: #ffffff;
+}
+
+header{
+
+}
+
+.logo-gmail{
+  line-height: 80px;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.header-top h1{
+  display: inline;
+  color: #ffffff;
+}
+
+.search{
+  border-radius: 5px;
+}
+
+.mail-alert{
+  color:#ffffff;
+}
+
+.mail-alert span{
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px;
+  color: #ffffff;
+  background: #FFA50A;
+  border-radius: 100%;
+}
+
+.mails-list{
+  list-style: none;
+  padding: 0;
+}
+
+.mails{
+  padding: 2px;
+  border: 1px solid #000000;
+  background-color: #d1adad;
+}
+
+.read{
+  background-color: #ffffff;
+}
+
+.mails p{
+  display: inline;
+  color: grey;
+}
+
+
+p span{
+  font-weight: bold;
+  color: #000000;
+}
+
+footer p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+footer p span{
+  font-size: 14px;
+  color: #ffffff;
+  font-style: italic;
+}
